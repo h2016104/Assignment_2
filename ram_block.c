@@ -268,6 +268,5 @@ module_init(mydisk_init);
 module_exit(mydisk_cleanup);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Anil Kumar Pugalia <email@sarika-pugs.com>");
 MODULE_DESCRIPTION("Ram Block Driver");
 MODULE_ALIAS_BLOCKDEV_MAJOR(mydisk_major);
